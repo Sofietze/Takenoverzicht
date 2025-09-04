@@ -62,7 +62,7 @@ def generate_pdf(titel, df, dfproblem):
             pdf.cell(30, 8, datum, border=1)
             pdf.cell(200, 8, opmerking, border=1)
                     #pdf.multi_cell(0, 8, f"🗓️ {datum} – {opmerking}", border=0)
-           
+            pdf.ln()
   
 
     # 💾 Wegschrijven naar geheugen
